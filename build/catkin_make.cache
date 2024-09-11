@@ -1,0 +1,2 @@
+exc1/package1:exc1/package2
+-DCATKIN_DEVEL_PREFIX=/home/arca/kthfsdv/devel -DCMAKE_INSTALL_PREFIX=/home/arca/kthfsdv/install -G Unix Makefiles
