@@ -1,0 +1,5 @@
+<launch>
+    <node name="nodeA" pkg="package1" type="nodeA" output="screen"/>
+
+    <node name="nodeB" pkg="package2" type="nodeB" output="screen"/>
+</launch>
