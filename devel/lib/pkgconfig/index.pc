@@ -1,0 +1,8 @@
+prefix=/home/arca/kthfsdv/devel
+
+Name: index
+Description: Description of index
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

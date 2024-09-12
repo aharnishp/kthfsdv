@@ -63,7 +63,7 @@ def listener():
     # anonymous=True flag means that rospy will choose a unique
     # name for our 'listener' node so that multiple listeners can
     # run simultaneously.
-    pub = rospy.Publisher('kthfs/result', Int32, queue_size=10)
+    pub = rospy.Publisher('kthfs/result', float, queue_size=10)
 
     rospy.init_node('nodeB', anonymous=True)
 

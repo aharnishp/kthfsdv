@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/arca/kthfsdv/build/gtest/cmake_install.cmake")
+  include("/home/arca/kthfsdv/build/exc1/index/cmake_install.cmake")
   include("/home/arca/kthfsdv/build/exc1/package1/cmake_install.cmake")
   include("/home/arca/kthfsdv/build/exc1/package2/cmake_install.cmake")
 

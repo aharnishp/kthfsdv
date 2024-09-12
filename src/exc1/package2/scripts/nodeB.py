@@ -47,8 +47,8 @@ telemetry = 1
 def callback(data):
     global pub
     rospy.loginfo(rospy.get_caller_id() + "I heard :%d", data.data)
-    new_float = data.data + 0.0 / 0.15
-    pub.publish(new_float)
+    new_float = data.data / 0.15
+    pub.publish(int(new_float))
 
     if(telemetry):
         print("got: ", data.data, "   sent: ", new_float)
